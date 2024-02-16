@@ -1,0 +1,47 @@
+{
+  "$schema": "../../node_modules/ng-packagr/package.schema.json",
+  "name": "@khajegan/angular2-multiselect-dropdown",
+  "version": "17.0.1",
+  "license": "MIT",
+  "author": "Amir Hossein Khajegan",
+  "description": "Angular Multiselect dropdown component library for Angular version 14, 15, 16",
+  "keywords": [
+    "angular 2 multiselect dropdown",
+    "angular multiselect",
+    "angular dropdown",
+    "angular 14",
+    "angular 15",
+    "angular 16",
+    "angular 17"
+  ],
+  "ngPackage": {
+    "lib": {
+      "entryFile": "src/public_api.ts"
+    },
+    "allowedNonPeerDependencies": [
+      "@tweenjs/tween.js"
+    ],
+    "assets": [
+      "README.md",
+      "LICENSE",
+      "themes/*.theme.scss",
+      "themes/*.theme.css"
+    ],
+    "dest": "../../dist"
+  },
+  "peerDependencies": {
+    "@tweenjs/tween.js": "^18.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khajegan/angular2-multiselect-dropdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khajegan/angular2-multiselect-dropdown/issues"
+  },
+  "homepage": "https://github.com/khajegan/angular2-multiselect-dropdown#readme",
+  "main": "karma.conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
